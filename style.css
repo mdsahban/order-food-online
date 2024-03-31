@@ -121,26 +121,25 @@ nav input {
   display: none;
 }
 #checkbox:checked + .circle {
-  background: var(--secondary-color);
-  border: 3px solid var(--secondary-color);
+  background: #79787884;
+  
 }
 #checkbox:checked + .circle::before {
   content: "";
-  transform: translateX(22px) rotate(210deg);
-  background: var(--secondary-color);
-  box-shadow: inset 8px -2px 0px 0px deepskyblue;
+  transform: translateX(20px);
+  background: deepskyblue;
+  
 }
 .circle {
-  height: 25px;
+  height: 30px;
   width: 45px;
-  border: 3px solid var(--secondary-color);
   border-radius: 30px;
- 
+  background: #cdcdcd83;
   padding: 0 2px;
   display: flex;
   align-items: center;
   transition: 0.4s;
-  /* position: absolute; */
+  padding-left: 5px;
   cursor: pointer;
   margin-right: 5rem;
   margin-top: 30px;
@@ -150,16 +149,15 @@ nav input {
   content: "";
   height: 21px;
   width: 21px;
-  background: var(--secondary-color);
+  background: white;
   border-radius: 50%;
   transition: 0.4s;
   /* position: absolute; */
   color: var(--secondary-color);
-  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* box-shadow:0 0 10px 2px rgba(0, 0, 0, 0.296) ; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .home {
