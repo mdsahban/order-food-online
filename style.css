@@ -516,10 +516,10 @@ footer .social-icons img {
     width: 4rem;
   }
   nav{
-    /* position: sticky; */
+    position: sticky;
     display:  flex;
     justify-content: space-between;
-    background: blueviolet;
+    background: var(--primary-color);
     transition: 0.3s ease-in-out;
 
   }
@@ -534,7 +534,7 @@ footer .social-icons img {
     top: 43px;
     left: 0;
     right: 0;
-    background: blueviolet;
+    background: var(--primary-color);
     gap: 0;
     text-align: center;
     height: 360px;
